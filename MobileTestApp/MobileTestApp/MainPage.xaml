@@ -6,19 +6,19 @@
     
         <StackLayout BackgroundColor="#ededed">
             <StackLayout BackgroundColor="#194880">
-                <!--<Label Text="Weather" HorizontalOptions="Center" Margin="0, 50, 0, 15"
-                       FontSize="30" TextColor="#091c33" FontAttributes="Bold"/> -->
+        
                 <Image Margin="10,0,0,45" Source="/Resources/drawable/weatherIcon.png" VerticalOptions="Center"/>
             </StackLayout>
         <RelativeLayout>
             <Frame RelativeLayout.YConstraint="-20" BackgroundColor="#fcfcfc" Margin="80, 0" Padding="15" CornerRadius="15">
                 <StackLayout>
-                    <Entry  x:Name="userInput" WidthRequest="200" Placeholder="Enter city"/>
-                    <Button x:Name="getWeatherButton" Text="Get" BackgroundColor="#e6b035" TextColor="#8f6b18" FontAttributes="Bold"/>
+                    <Entry x:Name="userInput" WidthRequest="200" Placeholder="Enter city"/>
+                    <Button x:Name="getWeatherButton" Text="Get" BackgroundColor="#e6b035" 
+                            TextColor="#8f6b18" FontAttributes="Bold" Clicked="getWeatherButton_Clicked"/>
                 </StackLayout>
             </Frame>
         </RelativeLayout>
-        <Label x:Name="resultLabel" Text="Some" FontSize="25" HorizontalOptions="Center" TextColor="#333" Margin="0,0,0,50" />
+        <Label x:Name="resultLabel" Text="" FontSize="25" HorizontalOptions="Center" TextColor="#333" Margin="0,0,0,50" />
     </StackLayout>
         
    
