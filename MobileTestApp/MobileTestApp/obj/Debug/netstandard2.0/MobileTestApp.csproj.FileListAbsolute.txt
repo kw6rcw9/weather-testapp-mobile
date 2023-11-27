@@ -1,0 +1,15 @@
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\bin\Debug\netstandard2.0\MobileTestApp.deps.json
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\bin\Debug\netstandard2.0\MobileTestApp.dll
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\bin\Debug\netstandard2.0\MobileTestApp.pdb
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.csproj.AssemblyReference.cache
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.AssemblyInfoInputs.cache
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.AssemblyInfo.cs
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.csproj.CoreCompileInputs.cache
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.dll
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\refint\MobileTestApp.dll
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.pdb
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\ref\MobileTestApp.dll
