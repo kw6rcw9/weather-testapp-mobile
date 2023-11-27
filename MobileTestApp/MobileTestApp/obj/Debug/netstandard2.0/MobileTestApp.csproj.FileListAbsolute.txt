@@ -13,3 +13,4 @@ F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netsta
 F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\refint\MobileTestApp.dll
 F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.pdb
 F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\ref\MobileTestApp.dll
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp\obj\Debug\netstandard2.0\MobileTestApp.sourcelink.json

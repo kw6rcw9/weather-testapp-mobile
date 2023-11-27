@@ -636,3 +636,4 @@ F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp.Android\obj\Debu
 F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp.Android\obj\Debug\120\android\jni_remap.x86.o
 F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp.Android\obj\Debug\120\android\jni_remap.x86_64.o
 F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp.Android\obj\Debug\120\stamp\_CompileJava.stamp
+F:\Desktop\C#2\Course\MobileTestApp\MobileTestApp\MobileTestApp.Android\obj\Debug\120\res\drawable\weathericon.png
