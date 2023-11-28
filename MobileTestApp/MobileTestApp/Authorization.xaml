@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileTestApp.Authorization">
+   
+        <StackLayout Margin="20">
+            <Label Text="Sign in" FontSize="25" HorizontalOptions="Center"/>
+            <Entry x:Name="loginField" Placeholder="Enter login"/>
+            <Entry IsPassword="True" x:Name="passwordField" Placeholder="Enter password"/>
+            <Button x:Name="authButton" Text="Auth" Clicked="authButton_Clicked" />
+            <Label Text="Or" FontSize="15" TextDecorations="Underline" />
+            <Button x:Name="regButton" Text="Sign up" FontSize="15" Clicked="regButton_Clicked"/>
+
+
+        </StackLayout>
+    
+</ContentPage>

@@ -6,8 +6,13 @@
     
         <StackLayout BackgroundColor="#ededed">
             <StackLayout BackgroundColor="#194880">
-        
-                <Image Margin="10,0,0,45" Source="/Resources/drawable/weatherIcon.png" VerticalOptions="Center"/>
+            <StackLayout Orientation="Horizontal" >
+                <Label x:Name="usernameField" Text="Hello" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Start" Margin="10,15,20,20"/>
+
+                <ImageButton WidthRequest="35" HeightRequest="35" BackgroundColor="#194880" 
+                                 Source="/Resources/drawable/exit.png"  Margin="150,0,0,0" HorizontalOptions="Center" Clicked="ImageButton_Clicked" />
+            </StackLayout>
+            <Image Margin="10,0,0,45" Source="/Resources/drawable/weatherIcon.png" VerticalOptions="Center"/>
             </StackLayout>
         <RelativeLayout>
             <Frame RelativeLayout.YConstraint="-20" BackgroundColor="#fcfcfc" Margin="80, 0" Padding="15" CornerRadius="15">

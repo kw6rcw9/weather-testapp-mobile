@@ -7,6 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Newtonsoft.Json.Linq;
+using MobileTestApp.Data.Models;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace MobileTestApp
 {
@@ -16,8 +19,24 @@ namespace MobileTestApp
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
         }
 
+        protected async override void OnAppearing()
+        {
+            string path = Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "user.xml");
+            if (!File.Exists(path))
+            {
+                await Navigation.PushAsync(new Authorization());
+                return;
+            }
+            XmlSerializer xml = new XmlSerializer(typeof(AuthUser));
+            using (FileStream file = new FileStream(path, FileMode.Open))
+            {
+                AuthUser authUser = (AuthUser)xml.Deserialize(file);
+                usernameField.Text +=", " + authUser.Login + "!";
+            }
+        }
         private async void getWeatherButton_Clicked(object sender, EventArgs e)
         {
            if(string.IsNullOrEmpty(userInput.Text))
@@ -48,6 +67,11 @@ namespace MobileTestApp
             var json = JObject.Parse(response);
             string temp = json["main"]["temp"].ToString();
             resultLabel.Text = $"In city {city} weather is {temp}";
+        }
+
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Authorization());
         }
     }
 }
